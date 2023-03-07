@@ -1,0 +1,25 @@
+@use "../../styles/colors";
+
+.searchInput {
+  flex-grow: 1;
+}
+
+.searchPaper {
+  width: 36.25rem;
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  margin-right: 8px;
+}
+
+.menuItem {
+  margin-left: 16px;
+}
+
+.Header {
+    background-color: colors.$background_paper;
+    padding: 1.125rem 0;
+}
