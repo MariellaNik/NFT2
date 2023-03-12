@@ -1,0 +1,32 @@
+@use "../../styles/colors";
+
+.info {
+    line-height: 1rem;
+    font-weight: bold;
+    font-size: 0.675rem;
+    color: colors.$secondary_main;
+}
+
+.User {
+    overflow: hidden;
+}
+
+.user {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 0.9rem;
+    line-height: .5rem;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: colors.$text_primary;
+    line-height: 1.5rem;
+}
